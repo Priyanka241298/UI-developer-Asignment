@@ -1,0 +1,60 @@
+body{
+   background-color: white;
+}
+.sidenav {
+    height: 100%; 
+    width: 160px;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color:white;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+ 
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+ 
+a:hover {
+    color:skyblue
+  }
+  
+  
+  .parent_div {
+      background-color:white;
+      margin-left: 160px; /* Same as the width of the sidebar */
+      padding: 0px 10px;
+      
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .sidebar-logo{
+      height: 60px;
+      width: 60px;
+  }
+  .img-container{
+      text-align: center;
+      background-color:white
+  }
+  .child_main{
+    height:79vh ;
+    width:98vw ;
+    background-color: #ebe7e7ec;
+    position:absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+
+}
